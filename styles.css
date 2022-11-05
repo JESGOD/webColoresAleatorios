@@ -1,0 +1,71 @@
+body {
+  margin: 0%;
+  /* el body tiene margen con respecto al navegador por defecto, aca se la quitamos*/
+  min-height: 100%;
+  /* se hace para que el body ocupe el todo el 100% De la pantalla aun cuando se haga scroll, si se pone solo height cuando haga scroll el body no baja con el*/
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+html {
+  height: 100%;
+}
+
+header {
+  color: rgb(70, 167, 167);
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px 10px 10px 10px lightblue;
+  border-radius: 10px;
+  padding-inline: 15px;
+
+}
+
+.navegacion li {
+  display: inline;
+  padding-left: 100px;
+
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: black;
+}
+
+.containerPrincipal {
+  text-align: center;
+  /*aca se usa tex aling:center ya que los elemetos predeterminadamente estan en bloque asi que si se alinea el texto al centro entonces se aliea todo el elemento*/
+  color: rgb(255, 255, 255);
+  padding-inline: 15%;
+  border-radius: 30px;
+  background-color: black;
+}
+
+
+
+.spamColor {
+  color: rgb(70, 167, 167);
+}
+
+main {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* aca se usa vh(viewport) por que min y hight no funcionaron.. importante pregunta por que sucede eso*/
+
+
+}
+
+button {
+  padding-block: 5%;
+  padding-inline: 10%;
+  border-radius: 15px;
+  border-color: rgb(70, 167, 167);
+  border-width: 5px;
+  
+}
